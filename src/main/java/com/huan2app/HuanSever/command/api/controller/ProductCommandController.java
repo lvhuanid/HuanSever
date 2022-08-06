@@ -22,7 +22,7 @@ public class ProductCommandController {
 
     @PostMapping
     public String addProduct(@RequestBody ProductRestMoael productRestMoael) {
-
+//上传提交测试
         CreateProductCommand createProductCommand =
                 CreateProductCommand.builder()
                         .productId(UUID.randomUUID().toString())
